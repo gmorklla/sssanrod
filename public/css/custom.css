@@ -1,0 +1,41 @@
+.navbar-brand-custom {
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: center;
+}
+
+.navbar-contact {
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn.btn-primary:hover {
+    background: whitesmoke;
+}
+
+.footer-title {
+    text-align: left;
+}
+
+.footer-title-2 {
+    text-align: end;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand-custom {
+        align-items: center !important;
+    }
+    .navbar-brand-custom a {
+        margin-right: 0;
+    }
+    .navbar-contact {
+        display: none !important;
+    }
+    .footer-title {
+        text-align: center;
+    }
+    .footer-title-2 {
+        text-align: center;
+    }
+}
